@@ -174,7 +174,7 @@ const questions = [
 
   {
     question:
-      "What could Massamba happily do for an unreasonable amount of time?",
+      "What could you happily do for an unreasonable amount of time?",
 
     answers: [
       "😴 Sleep",
@@ -232,7 +232,7 @@ const questions = [
 
     answers: [
       "😎 An even tougher man",
-      "🤓 A full-time Computer Scientist",
+      "🤓 A full-time Software Engineer",
       "🥚 A soft little pookie",
       "🧘🏾 The world's calmest man"
     ],
@@ -246,7 +246,7 @@ const questions = [
 
   {
     question:
-      "Massamba has a BSc in Computer Science from Wits. Which of these is he most likely to work with?",
+      "Massamba has a BSc in Computer Science degree from Wits. Which of these is he most likely to work with?",
 
     answers: [
       "🎨 Photoshop",
