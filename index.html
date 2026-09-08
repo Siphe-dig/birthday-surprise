@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Massamba.exe — Birthday Protocol</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Floating balloons -->
+  <div class="balloons">
+    <span>🎈</span>
+    <span>🎈</span>
+    <span>🎈</span>
+    <span>🎈</span>
+    <span>🎈</span>
+    <span>🎈</span>
+  </div>
+
+  <!-- Confetti container -->
+  <div id="confetti"></div>
+
+  <main>
+
+    <!-- ========================= -->
+    <!-- INTRO -->
+    <!-- ========================= -->
+
+    <section id="intro" class="screen active">
+
+      <div class="terminal">
+
+        <div class="terminal-top">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="terminal-content">
+
+          <p class="green">> INITIALIZING...</p>
+
+          <p>
+            Loading <strong>Massamba.exe</strong>
+          </p>
+
+          <p>
+            Birthday protocol detected.
+          </p>
+
+          <p>
+            Scanning subject...
+          </p>
+
+          <div class="stats">
+            <p>✓ Computer Scientist</p>
+            <p>✓ Wits BSc Graduate</p>
+            <p>✓ Pizza Enthusiast</p>
+            <p>✓ Anime Enjoyer</p>
+            <p>✓ Professional Sleeper</p>
+            <p>✓ Extremely Focused Human</p>
+            <p>✓ Secret Softie</p>
+          </div>
+
+          <p class="warning">
+            ⚠️ WARNING: Pookie mode may activate.
+          </p>
+
+          <button onclick="startBirthday()">
+            ENTER BIRTHDAY PROTOCOL →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- BIRTHDAY MESSAGE -->
+    <!-- ========================= -->
+
+    <section id="welcome" class="screen">
+
+      <div class="card">
+
+        <div class="emoji-big">🎂</div>
+
+        <h1>Happy Birthday, Massamba ❤️</h1>
+
+        <p class="subtitle">
+          Or should I say...
+        </p>
+
+        <h2>My Pookie 🥹</h2>
+
+        <p>
+          Today is all about you.
+        </p>
+
+        <p>
+          So before your birthday surprise is unlocked,
+          you have to complete one tiny challenge.
+        </p>
+
+        <p class="small">
+          Let's see how well you know yourself...
+        </p>
+
+        <button onclick="showCake()">
+          I'M READY →
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- CAKE -->
+    <!-- ========================= -->
+
+    <section id="cakeScreen" class="screen">
+
+      <div class="card">
+
+        <h1>First things first... 🎂</h1>
+
+        <p>
+          Make a wish, birthday boy.
+        </p>
+
+        <div class="cake">
+
+          <div class="candle candle1">
+            <div class="flame"></div>
+          </div>
+
+          <div class="candle candle2">
+            <div class="flame"></div>
+          </div>
+
+          <div class="candle candle3">
+            <div class="flame"></div>
+          </div>
+
+          <div class="cake-top"></div>
+          <div class="cake-middle"></div>
+          <div class="cake-bottom"></div>
+
+        </div>
+
+        <p id="blowText">
+          🎤 Blow into your microphone to blow out the candles!
+        </p>
+
+        <button onclick="startMicrophone()">
+          🎤 BLOW OUT CANDLES
+        </button>
+
+        <button class="secondary" onclick="blowCandles()">
+          👆 Tap here instead
+        </button>
+
+        <p id="micStatus" class="small"></p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- QUIZ -->
+    <!-- ========================= -->
+
+    <section id="quizScreen" class="screen">
+
+      <div class="card">
+
+        <p class="question-number" id="questionNumber"></p>
+
+        <h1 id="question"></h1>
+
+        <div id="answers"></div>
+
+        <p id="quizFeedback"></p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- FINAL MESSAGE -->
+    <!-- ========================= -->
+
+    <section id="finalScreen" class="screen">
+
+      <div class="card final-card">
+
+        <div class="emoji-big">
+          🎉
+        </div>
+
+        <h1>
+          BIRTHDAY PROTOCOL COMPLETE
+        </h1>
+
+        <div class="terminal-mini">
+
+          <p>Massamba.exe status:</p>
+
+          <p>✓ Serious</p>
+          <p>✓ Focused</p>
+          <p>✓ Provider</p>
+          <p>✓ Pizza Lover</p>
+          <p>✓ Anime Enthusiast</p>
+          <p>✓ Professional Sleeper</p>
+          <p>✓ Secret Pookie</p>
+
+        </div>
+
+        <h2>
+          ACCESS GRANTED ❤️
+        </h2>
+
+        <p class="message">
+
+          Happy birthday to my favourite person. ❤️
+
+          <br><br>
+
+          You are one of the most focused, hardworking,
+          calm and determined people I know.
+
+          <br><br>
+
+          I love the serious Massamba,
+          the locked-in Massamba,
+          the provider Massamba...
+
+          <br><br>
+
+          but I especially love my little pookie
+          who loves cuddling me, holding my hand
+          and playing with my fingers. 🥹
+
+          <br><br>
+
+          You may act tough,
+          but I know the softie underneath.
+
+          ❤️
+
+        </p>
+
+        <div class="divider"></div>
+
+        <h2>
+          🎁 YOUR BIRTHDAY REWARD 🎁
+        </h2>
+
+        <div class="date-night">
+
+          <div>🍝</div>
+          <h1>Italian Pasta</h1>
+
+          <div>🍷</div>
+          <h1>Wine</h1>
+
+          <div>❤️</div>
+          <h1>Just Us</h1>
+
+        </div>
+
+        <p class="reveal">
+          Your birthday date has been unlocked...
+        </p>
+
+        <div class="restaurant">
+          🌙
+          <h1>LUNA LUSA</h1>
+          <p>Italian Pasta & Wine Date Night</p>
+        </div>
+
+        <p class="small">
+          Because my pookie deserves to be spoiled. ❤️
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
