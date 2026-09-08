@@ -1,0 +1,452 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Courier New", monospace;
+  background:
+    radial-gradient(circle at top, #26143b, #09060d 60%);
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+
+/* =========================
+   SCREENS
+========================= */
+
+.screen {
+  min-height: 100vh;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.screen.active {
+  display: flex;
+}
+
+
+/* =========================
+   TERMINAL
+========================= */
+
+.terminal {
+  width: min(700px, 100%);
+  background: rgba(8, 8, 12, 0.95);
+  border: 1px solid #59436f;
+  border-radius: 16px;
+  box-shadow: 0 0 50px rgba(184, 120, 255, 0.15);
+  overflow: hidden;
+}
+
+.terminal-top {
+  height: 38px;
+  background: #17131d;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 15px;
+}
+
+.terminal-top span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #777;
+}
+
+.terminal-content {
+  padding: 35px;
+  line-height: 1.8;
+}
+
+.green {
+  color: #8affb0;
+}
+
+.warning {
+  color: #ff9fd6;
+}
+
+.stats {
+  margin: 20px 0;
+  color: #cdb6e8;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  padding: 15px 22px;
+  margin-top: 15px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 0.95rem;
+  cursor: pointer;
+  background: #ffffff;
+  color: #17101e;
+  transition: 0.25s ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(255,255,255,0.15);
+}
+
+button.secondary {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+  color: #dcbcff;
+  border: 1px solid #65477c;
+}
+
+
+/* =========================
+   CARDS
+========================= */
+
+.card {
+  width: min(650px, 100%);
+  text-align: center;
+  padding: 45px 30px;
+  background: rgba(25, 17, 34, 0.9);
+  border: 1px solid #624775;
+  border-radius: 24px;
+  box-shadow: 0 0 60px rgba(193, 118, 255, 0.12);
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  font-size: clamp(1.7rem, 5vw, 3rem);
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #f1c9ff;
+}
+
+.subtitle {
+  color: #aaa;
+}
+
+.small {
+  font-size: 0.85rem;
+  color: #a89aad;
+}
+
+.emoji-big {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+
+/* =========================
+   BALLOONS
+========================= */
+
+.balloons {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.balloons span {
+  position: absolute;
+  bottom: -100px;
+  font-size: 45px;
+  animation: float 12s linear infinite;
+  opacity: 0.75;
+}
+
+.balloons span:nth-child(1) {
+  left: 5%;
+  animation-delay: 0s;
+}
+
+.balloons span:nth-child(2) {
+  left: 20%;
+  animation-delay: 2s;
+}
+
+.balloons span:nth-child(3) {
+  left: 40%;
+  animation-delay: 5s;
+}
+
+.balloons span:nth-child(4) {
+  left: 60%;
+  animation-delay: 1s;
+}
+
+.balloons span:nth-child(5) {
+  left: 80%;
+  animation-delay: 4s;
+}
+
+.balloons span:nth-child(6) {
+  left: 92%;
+  animation-delay: 7s;
+}
+
+@keyframes float {
+  from {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  to {
+    transform: translateY(-120vh) rotate(20deg);
+  }
+}
+
+
+/* =========================
+   CAKE
+========================= */
+
+.cake {
+  position: relative;
+  width: 260px;
+  height: 230px;
+  margin: 35px auto;
+}
+
+.cake-bottom,
+.cake-middle,
+.cake-top {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 12px;
+}
+
+.cake-bottom {
+  width: 230px;
+  height: 70px;
+  bottom: 20px;
+  background: #7d426f;
+}
+
+.cake-middle {
+  width: 200px;
+  height: 60px;
+  bottom: 75px;
+  background: #a75b91;
+}
+
+.cake-top {
+  width: 170px;
+  height: 55px;
+  bottom: 125px;
+  background: #d88bb9;
+}
+
+.candle {
+  position: absolute;
+  width: 14px;
+  height: 55px;
+  background: #f6e5ff;
+  bottom: 175px;
+  border-radius: 5px;
+  z-index: 5;
+}
+
+.candle1 {
+  left: 78px;
+}
+
+.candle2 {
+  left: 123px;
+}
+
+.candle3 {
+  left: 168px;
+}
+
+.flame {
+  position: absolute;
+  width: 18px;
+  height: 25px;
+  background: #ffd36b;
+  border-radius: 50% 50% 50% 50%;
+  top: -27px;
+  left: -2px;
+  animation: flicker 0.4s infinite alternate;
+}
+
+@keyframes flicker {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.15);
+  }
+}
+
+.candle.off .flame {
+  display: none;
+}
+
+.candle.off {
+  opacity: 0.5;
+}
+
+
+/* =========================
+   QUIZ
+========================= */
+
+.question-number {
+  color: #bd91dd;
+  letter-spacing: 3px;
+}
+
+#question {
+  line-height: 1.4;
+}
+
+#answers {
+  display: grid;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.answer {
+  width: 100%;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid #59436f;
+  color: white;
+  text-align: left;
+}
+
+.answer:hover {
+  background: rgba(255,255,255,0.12);
+}
+
+#quizFeedback {
+  min-height: 25px;
+  margin-top: 20px;
+}
+
+
+/* =========================
+   FINAL SCREEN
+========================= */
+
+.final-card {
+  max-width: 750px;
+}
+
+.terminal-mini {
+  text-align: left;
+  background: #09070c;
+  border: 1px solid #463452;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 25px 0;
+  color: #bcefc9;
+}
+
+.message {
+  line-height: 1.8;
+  color: #ded1e5;
+}
+
+.divider {
+  height: 1px;
+  background: #624775;
+  margin: 35px 0;
+}
+
+.date-night {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.date-night div {
+  font-size: 3rem;
+}
+
+.date-night h1 {
+  font-size: 1.1rem;
+}
+
+.restaurant {
+  margin-top: 30px;
+  padding: 30px;
+  border: 1px solid #8e5fa9;
+  border-radius: 18px;
+  background: linear-gradient(
+    135deg,
+    rgba(92, 55, 110, 0.4),
+    rgba(20, 12, 25, 0.7)
+  );
+}
+
+.restaurant h1 {
+  letter-spacing: 5px;
+}
+
+
+/* =========================
+   CONFETTI
+========================= */
+
+.confetti {
+  position: fixed;
+  top: -20px;
+  font-size: 22px;
+  animation: confettiFall 4s linear forwards;
+  z-index: 100;
+  pointer-events: none;
+}
+
+@keyframes confettiFall {
+  to {
+    transform: translateY(110vh) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+  .terminal-content {
+    padding: 25px 20px;
+  }
+
+  .card {
+    padding: 35px 20px;
+  }
+
+  .date-night {
+    grid-template-columns: 1fr;
+  }
+
+  .date-night h1 {
+    margin-top: 0;
+  }
+
+  .balloons span {
+    font-size: 35px;
+  }
+}
