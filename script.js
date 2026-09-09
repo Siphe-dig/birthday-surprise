@@ -246,7 +246,7 @@ const questions = [
 
   {
     question:
-      "Massamba has a BSc in Computer Science degree from Wits. Which of these are you most likely to work with?",
+      "Massamba has a BSc in Computer Science degree from Wits. Which of these is he most likely to work with?",
 
     answers: [
       "🎨 Photoshop",
