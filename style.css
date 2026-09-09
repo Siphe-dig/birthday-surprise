@@ -450,3 +450,39 @@ h2 {
     font-size: 35px;
   }
 }
+/* =========================
+   RESERVATION DETAILS
+========================= */
+
+.reservation {
+  margin-top: 25px;
+  padding: 25px;
+  border: 1px solid #624775;
+  border-radius: 18px;
+  background: rgba(9, 7, 12, 0.65);
+}
+
+.reservation h2 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #f1c9ff;
+}
+
+.reservation-details {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.reservation-details p {
+  margin: 14px 0;
+  color: #ded1e5;
+  line-height: 1.6;
+}
+
+.reservation-note {
+  margin-top: 22px;
+  color: #ffb9dc;
+  font-size: 0.9rem;
+  font-style: italic;
+}
