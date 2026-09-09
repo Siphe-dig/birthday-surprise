@@ -61,10 +61,9 @@ function blowCandles() {
 
     launchConfetti();
 
-   setTimeout(() => {
+  setTimeout(() => {
   startFiles();
 }, 1800);
-
   }, 1000);
 
 }
@@ -331,14 +330,10 @@ My best friend, my everything. He makes me feel loved, not just in what he says,
 The sexiest man to ever walk the Earth. He does not believe it but I had already liked him before I even put my number on his phone😏
 This is the most important title of all because as his girlfriend, I get to experience all the other titles combined😏. 
 
-
-
+    `
   }
 
-
-
 ];
-
 let currentFile = 0;
 
 
