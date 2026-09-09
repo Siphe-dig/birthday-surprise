@@ -460,9 +460,9 @@ const questions = [
       "Which combination sounds most like a perfect Massamba day?",
 
     answers: [
-      "😴 Sleep + 🍕 Pizza",
+      "😴 Sleep + 🧸Siphe",
       "🎬 Anime + 😴 Sleep",
-      "💻 Coding + Music",
+      "💻 Coding + 🎵Music",
       "🤷🏾 All of the above"
     ],
 
@@ -493,21 +493,20 @@ const questions = [
 
   {
     question:
-      "Massamba has a BSc in Computer Science degree from Wits. Which of these is he most likely to work with?",
+     "What does Massamba apparently need before he can fully settle down for the night?",
 
     answers: [
-      "🎨 Photoshop",
-      "🗄️ SQL",
-      "🎵 Music production",
-      "📐 AutoCAD"
-    ],
+    "🍕 A slice of pizza",
+    "💻 His computer and playlist",
+    "🎬 Anime or a 12-hour manga",
+    "🧸 A cuddle with Siphe"
+  ],
+ correct: 2,
 
-    correct: 1,
-
-    message:
-      "SQL KING 👑💻"
-  }
-
+  message:
+    "😂 EXACTLY. Anime or a 12-hour manga on 2x speed. This man has a routine."
+}
+   
 ];
 
 
