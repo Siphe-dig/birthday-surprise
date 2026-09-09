@@ -196,7 +196,7 @@ const questions = [
 
     answers: [
       "🗣️ He starts talking to everyone",
-      "💻 He forgets the outside world exists",
+      "💻 He forgets that Siphe and the outside world exist",
       "😴 He takes a nap",
       "🎬 He watches anime"
     ],
