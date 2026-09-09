@@ -486,3 +486,43 @@ h2 {
   font-size: 0.9rem;
   font-style: italic;
 }
+/* =========================================
+   MASSAMBA FILES
+========================================= */
+
+.files-card {
+  max-width: 700px;
+}
+
+.file-status {
+  color: #8affb0;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.file-content {
+  display: none;
+  margin-top: 30px;
+  padding: 25px;
+  background: rgba(9, 7, 12, 0.85);
+  border: 1px solid #463452;
+  border-radius: 14px;
+  text-align: left;
+  line-height: 1.8;
+  color: #ded1e5;
+  white-space: pre-line;
+}
+
+.file-content::before {
+  content: "> PERSONAL FILE DECRYPTED";
+  display: block;
+  color: #8affb0;
+  margin-bottom: 20px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+#nextFileButton {
+  margin-top: 25px;
+}
