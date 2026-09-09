@@ -164,7 +164,265 @@ async function startMicrophone() {
   }
 
 }
+/* =========================================
+   MASSAMBA FILES
+========================================= */
 
+const massambaFiles = [
+
+  {
+    emoji: "💻",
+    title: "SOFTWARE ENGINEER",
+    status: "STATUS: LOCKED IN 🔒",
+    text: `
+Specialisation: Getting things to work.
+
+Threat level:
+DO NOT DISTURB WHILE CODING.
+
+[WRITE YOUR MESSAGE HERE]
+
+Talk about how intelligent he is, how focused he gets when he's working,
+his work ethic, and anything cute or funny about him being locked in.
+    `
+  },
+
+  {
+    emoji: "🎓",
+    title: "WITS BSc GRADUATE",
+    status: "STATUS: COMPLETED ✓",
+    text: `
+QUALIFICATION:
+BSc Computer Science — Wits.
+
+Achievement status:
+COMPLETED. 🎓
+
+[WRITE YOUR MESSAGE HERE]
+
+Talk about how proud you are of him,
+his determination, and what this achievement means to you.
+    `
+  },
+
+  {
+    emoji: "🎬",
+    title: "ANIME BINGE-WATCHER",
+    status: "STATUS: OBSESSED",
+    text: `
+ANIME DETECTED.
+
+Favourite activity:
+Trying to convince Siphe to watch anime.
+
+[WRITE YOUR MESSAGE HERE]
+
+Add your favourite anime-related memories,
+the shows he's tried to get you to watch,
+or something funny about his anime obsession.
+    `
+  },
+
+  {
+    emoji: "😴",
+    title: "PROFESSIONAL SLEEPER",
+    status: "STATUS: CURRENTLY UNAVAILABLE",
+    text: `
+SLEEPING ABILITY:
+EXCEPTIONAL.
+
+Availability:
+Probably asleep.
+
+[WRITE YOUR MESSAGE HERE]
+
+Talk about how much he loves sleeping,
+funny sleeping memories,
+or something cute about sleeping next to him.
+    `
+  },
+
+  {
+    emoji: "🤖",
+    title: "MY PERSONALISED PREMIUM VERSION OF CLAUDE",
+    status: "VERSION: MASSAMBA 23.0",
+    text: `
+PREMIUM AI ASSISTANT DETECTED.
+
+Features include:
+• Listening
+• Advice
+• Comfort
+• Being there for Siphe
+• Occasionally being annoying 😂
+
+[WRITE YOUR MESSAGE HERE]
+
+Explain why he's your personalised premium Claude.
+    `
+  },
+
+  {
+    emoji: "💋",
+    title: "WORLD'S BEST KISSER",
+    status: "STATUS: HIGHLY CLASSIFIED 🔐",
+    text: `
+ACCESS LEVEL:
+SIPHE ONLY.
+
+CLASSIFICATION:
+EXTREMELY DANGEROUS. 💋
+
+[WRITE YOUR MESSAGE HERE]
+
+This one is yours.
+Make it romantic, cheeky, funny, or all three.
+    `
+  },
+
+  {
+    emoji: "🧸",
+    title: "MOST COMFORTABLE PILLOW",
+    status: "STATUS: CUDDLE MODE READY",
+    text: `
+HUMAN PILLOW DETECTED.
+
+Additional features:
+• Excellent cuddling
+• Hand holding
+• Finger playing
+• Maximum comfort
+• Soft pookie mode
+
+[WRITE YOUR MESSAGE HERE]
+
+Talk about cuddling, holding hands,
+playing with your fingers and why he feels like home.
+    `
+  },
+
+  {
+    emoji: "😏",
+    title: "CLASSIFIED",
+    status: "ACCESS: SIPHE ONLY 🔐",
+    text: `
+████████████████████
+
+THIS FILE HAS BEEN CLASSIFIED.
+
+Reason:
+Massamba knows exactly what this means. 😂
+
+[WRITE YOUR MESSAGE HERE]
+
+You know what belongs here.
+    `
+  },
+
+  {
+    emoji: "👩🏽‍🤝‍👨🏾",
+    title: "SIPHE'S BOYFRIEND ❤️",
+    status: "IMPORTANCE LEVEL: 100%",
+    text: `
+FINAL CLASSIFICATION:
+
+MASSAMBA HAS BEEN OFFICIALLY IDENTIFIED
+AS SIPHE'S BOYFRIEND.
+
+Importance:
+EXTREMELY HIGH. ❤️
+
+[WRITE YOUR MESSAGE HERE]
+
+Talk about what he means to you,
+what you love about your relationship,
+the little things he does,
+and why THIS is the most important title of all.
+    `
+  }
+
+];
+
+let currentFile = 0;
+
+
+function startFiles() {
+
+  currentFile = 0;
+
+  showScreen("filesScreen");
+
+  displayFile();
+
+}
+
+
+function displayFile() {
+
+  const file = massambaFiles[currentFile];
+
+  document.getElementById("fileEmoji").innerText =
+    file.emoji;
+
+  document.getElementById("fileTitle").innerText =
+    file.title;
+
+  document.getElementById("fileStatus").innerText =
+    file.status;
+
+  document.getElementById("fileText").innerText =
+    file.text;
+
+  document.getElementById("fileContent").style.display =
+    "none";
+
+  document.getElementById("openFileButton").style.display =
+    "inline-block";
+
+  document.getElementById("nextFileButton").style.display =
+    "none";
+
+  document.getElementById("fileNumber").innerText =
+    `MASSAMBA.EXE // FILE ${currentFile + 1} / ${massambaFiles.length}`;
+
+}
+
+
+function openFile() {
+
+  const fileContent =
+    document.getElementById("fileContent");
+
+  const openButton =
+    document.getElementById("openFileButton");
+
+  const nextButton =
+    document.getElementById("nextFileButton");
+
+  fileContent.style.display = "block";
+
+  openButton.style.display = "none";
+
+  nextButton.style.display = "inline-block";
+
+}
+
+
+function nextFile() {
+
+  currentFile++;
+
+  if (currentFile < massambaFiles.length) {
+
+    displayFile();
+
+  } else {
+
+    startQuiz();
+
+  }
+
+}
 
 /* =========================================
    QUIZ DATA
