@@ -496,7 +496,7 @@ const questions = [
      "What does Massamba apparently need before he can fully settle down for the night?",
 
     answers: [
-    "🍕 A slice of pizza",
+    "🥤 A HUGE can of redbull",
     "💻 His computer and playlist",
     "🎬 Anime or a 12-hour manga",
     "🧸 A cuddle with Siphe"
