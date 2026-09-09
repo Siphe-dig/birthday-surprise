@@ -215,7 +215,7 @@ const questions = [
     answers: [
       "😴 Sleep + 🍕 Pizza",
       "🎬 Anime + 😴 Sleep",
-      "💻 Coding + Music,
+      "💻 Coding + Music",
       "🤷🏾 All of the above"
     ],
 
