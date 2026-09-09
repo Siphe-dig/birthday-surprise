@@ -233,14 +233,14 @@ const questions = [
     answers: [
       "😎 An even tougher man",
       "🤓 A full-time Software Engineer",
-      "🥚 A soft little pookie",
+      "🧸 A soft little pookie",
       "🧘🏾 The world's calmest man"
     ],
 
     correct: 2,
 
     message:
-      "POOKIE MODE: ACTIVATED. 🥚❤️"
+      "POOKIE MODE: ACTIVATED. 🧸❤️"
   },
 
 
