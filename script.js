@@ -179,11 +179,9 @@ Specialisation: Getting things to work.
 
 Threat level:
 DO NOT DISTURB WHILE CODING.
-
-[WRITE YOUR MESSAGE HERE]
-
-Talk about how intelligent he is, how focused he gets when he's working,
-his work ethic, and anything cute or funny about him being locked in.
+He is so smart, like super duper smart, another Albert Einstein level. nothing can disturb my pookie when he is locked in, no call, no text, just him, his computer and his playlist.
+He'll get the work done, just allow him to work at night, with no distractions( aka, NO SIPHE).
+He takes what he does seriously and I am proud of the man he is becoming.
     `
   },
 
@@ -197,11 +195,11 @@ BSc Computer Science — Wits.
 
 Achievement status:
 COMPLETED. 🎓
-
-[WRITE YOUR MESSAGE HERE]
-
-Talk about how proud you are of him,
-his determination, and what this achievement means to you.
+completed not just from anywhere, but from the HAVARD of AFRICA. I'm so proud of him, proud is an understatement.
+He has always been determined when it came to what he wanted, I'm sure if I had told Massamba in 2024 that he would be where he is in just 2 years?
+I'm sure he would not believe me, I hope our babies have his smarts
+He went to Wits to get a degree and came back with his sweetheart. 
+may not have been his high school sweetheart, but they are definitely endgame
     `
   },
 
@@ -214,12 +212,9 @@ ANIME DETECTED.
 
 Favourite activity:
 Trying to convince Siphe to watch anime.
-
-[WRITE YOUR MESSAGE HERE]
-
-Add your favourite anime-related memories,
-the shows he's tried to get you to watch,
-or something funny about his anime obsession.
+oh my goodness, since day one, he has tried to convice Siphe to watch anime and Siphe has her moments where she is hooked and thern goes back and watches other stuff.
+so many incomplete anime, but we have so much time to watch them together.
+He cannot sleep without watching anime or listening to 12 hour manga on 2x speed 🙄😂
     `
   },
 
@@ -233,12 +228,9 @@ EXCEPTIONAL.
 
 Availability:
 Probably asleep.
-
-[WRITE YOUR MESSAGE HERE]
-
-Talk about how much he loves sleeping,
-funny sleeping memories,
-or something cute about sleeping next to him.
+I love sleep, but Massamba loves sleep even more😂 it is such a difficult task to be his alarm, because he is going to switch you off and then oversleep afterwards😂.
+sleeping comes with snoring and even at 23 he is still in denial of his snoring.
+One thing I can say though is that he does not play about me when we are sleeping, we are always in a suffocating headlock position😂
     `
   },
 
@@ -247,7 +239,7 @@ or something cute about sleeping next to him.
     title: "MY PERSONALISED PREMIUM VERSION OF CLAUDE",
     status: "VERSION: MASSAMBA 23.0",
     text: `
-PREMIUM AI ASSISTANT DETECTED.
+PREMIUM ASSISTANT DETECTED.
 
 Features include:
 • Listening
@@ -258,7 +250,9 @@ Features include:
 
 [WRITE YOUR MESSAGE HERE]
 
-Explain why he's your personalised premium Claude.
+Massamba has solutions for EVERYTHING. To me he knows everything.
+He is always finding ways to make my life easier, even when he is at work, there is rarely ever an answered call.
+even if it is to tell him about the smallest most unimportant detail of my day. AND his responses do not run out at midnight.
     `
   },
 
@@ -272,11 +266,8 @@ SIPHE ONLY.
 
 CLASSIFICATION:
 EXTREMELY DANGEROUS. 💋
-
-[WRITE YOUR MESSAGE HERE]
-
-This one is yours.
-Make it romantic, cheeky, funny, or all three.
+Massamba gives the best kisses, especially lamzas🫦, 
+but sometimes kissing me on my forehad or on my cheek is enough to make me want to buy him a Polo TSI
     `
   },
 
@@ -294,10 +285,9 @@ Additional features:
 • Maximum comfort
 • Soft pookie mode
 
-[WRITE YOUR MESSAGE HERE]
-
-Talk about cuddling, holding hands,
-playing with your fingers and why he feels like home.
+laying on his chest and listening to his heartbeat makes my world go quiet.
+his heartbeat somehow regulates me, 
+i must admit, most of the time when we are watching something I focus more on his chest than what is actually going on in what we are watching
     `
   },
 
@@ -313,9 +303,11 @@ THIS FILE HAS BEEN CLASSIFIED.
 Reason:
 Massamba knows exactly what this means. 😂
 
-[WRITE YOUR MESSAGE HERE]
-
-You know what belongs here.
+Then we have big dzaaddy Masssamba, freak in the sheets Massamba,
+the best dzick ever Massamba.
+whether it is missionary, doggystyle, my whack WoT, sideways missionary, 69,
+big dzaddy Massamba always matches my level of reak and dicks me down good 🍆💦
+I wanna match his head game one day though...
     `
   },
 
@@ -332,13 +324,13 @@ AS SIPHE'S BOYFRIEND.
 Importance:
 EXTREMELY HIGH. ❤️
 
-[WRITE YOUR MESSAGE HERE]
+Massamba already knows how much he means to me, I hope there is never a day where he questions that.
+He's been my boyfriend for almost 3 years now and I love him more each day ❤️
+I love who he is, what he is and what our relationship is more than he can ever know.
+My best friend, my everything. He makes me feel loved, not just in what he says, but what he does.
+The sexiest man to ever walk the Earth. He does not believe it but I had already liked him before I even put my number on his phone😏
+This is the most important title of all because as his girlfriend, I get to experience all the other titles combined😏. 
 
-Talk about what he means to you,
-what you love about your relationship,
-the little things he does,
-and why THIS is the most important title of all.
-    `
   }
 
 ];
