@@ -247,8 +247,6 @@ Features include:
 • Being there for Siphe
 • Occasionally being annoying 😂
 
-[WRITE YOUR MESSAGE HERE]
-
 Massamba has solutions for EVERYTHING. To me he knows everything.
 He is always finding ways to make my life easier, even when he is at work, there is rarely ever an answered call.
 even if it is to tell him about the smallest most unimportant detail of my day. AND his responses do not run out at midnight.
