@@ -663,9 +663,9 @@ function launchConfetti() {
     "🎈",
     "🥳",
     "💜",
-    "🍕",
-    "🍝"
-  ];
+    "💋",
+     "🧸"
+];
 
   for (let i = 0; i < 35; i++) {
 
