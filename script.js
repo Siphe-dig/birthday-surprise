@@ -50,23 +50,31 @@ function showCake() {
 
 function blowCandles() {
 
-  document.querySelectorAll(".candle").forEach(candle => {
-    candle.classList.add("off");
-  });
+  const candle2 = document.getElementById("candle2");
+  const candle3 = document.getElementById("candle3");
+
+  if (candle2) {
+    candle2.classList.add("blown-out");
+  }
+
+  if (candle3) {
+    candle3.classList.add("blown-out");
+  }
 
   document.getElementById("blowText").innerHTML =
-    "🔥 Candles extinguished. Birthday wish registered. ❤️";
+    "✨ Wish successfully registered. ❤️";
 
   setTimeout(() => {
 
     launchConfetti();
 
-  setTimeout(() => {
-  startFiles();
-}, 1800);
+    setTimeout(() => {
+      startFiles();
+    }, 1800);
+
   }, 1000);
 
-}
+} 
 
 
 /* =========================================
