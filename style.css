@@ -526,3 +526,79 @@ h2 {
 #nextFileButton {
   margin-top: 25px;
 }
+/* ========================= */
+/* 23 BIRTHDAY CANDLES */
+/* ========================= */
+
+.number-candles {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 12px;
+  position: absolute;
+  left: 50%;
+  top: -75px;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.number-candle {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number-candle span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 45px;
+  height: 65px;
+
+  background: #f3b6cc;
+  color: white;
+
+  font-size: 32px;
+  font-weight: bold;
+
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.number-candle .flame {
+  width: 14px;
+  height: 20px;
+
+  background: #ffb347;
+  border-radius: 50% 50% 50% 50%;
+
+  margin-bottom: 4px;
+
+  box-shadow:
+    0 0 8px #ffb347,
+    0 0 15px rgba(255,179,71,0.6);
+
+  animation: candleFlicker 0.7s infinite alternate;
+}
+
+@keyframes candleFlicker {
+  from {
+    transform: scale(0.9);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
+
+/* Candles after being blown out */
+
+.number-candle.blown-out .flame {
+  display: none;
+}
+
+.number-candle.blown-out span {
+  opacity: 0.65;
+} 
