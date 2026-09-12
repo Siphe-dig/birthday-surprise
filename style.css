@@ -534,14 +534,14 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  gap: 12px;
-  position: absolute;
-  left: 50%;
-  top: -75px;
-  transform: translateX(-50%);
-  z-index: 10;
-}
+  gap: 10px;
 
+  position: relative;
+  z-index: 10;
+
+  margin-top: 5px;
+  margin-bottom: -25px;
+} 
 .number-candle {
   position: relative;
   display: flex;
