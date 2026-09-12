@@ -527,78 +527,89 @@ h2 {
   margin-top: 25px;
 }
 /* ========================= */
-/* 23 BIRTHDAY CANDLES */
+/* NUMBER-SHAPED CANDLES */
 /* ========================= */
 
 .number-candles {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  gap: 10px;
+  gap: 18px;
 
   position: relative;
   z-index: 10;
 
   margin-top: 5px;
   margin-bottom: -25px;
-} 
-.number-candle {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.number-candle span {
+.number-candle {
+  position: relative;
+  width: 48px;
+  height: 75px;
+
   display: flex;
   align-items: center;
   justify-content: center;
-
-  width: 45px;
-  height: 65px;
-
-  background: #f3b6cc;
-  color: white;
-
-  font-size: 32px;
-  font-weight: bold;
-
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
+/* The actual number-shaped candle */
+.number-candle span {
+  font-family: Arial, sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 1;
+
+  color: #f3b6cc;
+
+  /* Gives the number a candle/wax appearance */
+  text-shadow:
+    1px 1px 0 #e39ab5,
+    -1px -1px 0 #ffdce8,
+    2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+/* Flame */
 .number-candle .flame {
-  width: 14px;
+  position: absolute;
+
+  top: -8px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 13px;
   height: 20px;
 
   background: #ffb347;
-  border-radius: 50% 50% 50% 50%;
 
-  margin-bottom: 4px;
+  border-radius: 50% 50% 50% 50%;
 
   box-shadow:
     0 0 8px #ffb347,
-    0 0 15px rgba(255,179,71,0.6);
+    0 0 15px rgba(255, 179, 71, 0.7);
 
   animation: candleFlicker 0.7s infinite alternate;
 }
 
 @keyframes candleFlicker {
+
   from {
-    transform: scale(0.9);
+    transform: translateX(-50%) scale(0.9);
   }
 
   to {
-    transform: scale(1.1);
+    transform: translateX(-50%) scale(1.1);
   }
+
 }
 
-/* Candles after being blown out */
+/* Blown out */
 
 .number-candle.blown-out .flame {
   display: none;
 }
 
 .number-candle.blown-out span {
-  opacity: 0.65;
+  opacity: 0.6;
 } 
