@@ -478,10 +478,10 @@ const questions = [
       "Massamba acts very serious and tough. But what is hiding underneath?",
 
     answers: [
-      "😎 An even tougher man",
-      "🤓 A full-time Software Engineer",
-      "🧸 A soft little pookie",
-      "🧘🏾 The world's calmest man"
+      "😎 an even tougher man",
+      "🤓 a full-time Software Engineer",
+      "🧸 my soft little pookie",
+      "🧘🏾 the world's calmest man"
     ],
 
     correct: 2,
